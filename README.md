@@ -17,8 +17,8 @@ Find k = (a, b) used to encrypt a given plaintext into a given ciphertext.
  - Run: `./main plaintext ciphertext`
 
 ###Where
- - `plaintext` is a chosen plaintext
- - `ciphertext` is its encrypted corres corresponding
+ - `plaintext` is a chosen plaintext. Single words ONLY supported for now.
+ - `ciphertext` is its encrypted corres corresponding. Single words ONLY supported for now.
 
 ##How it works
 Let k = (a, b)
