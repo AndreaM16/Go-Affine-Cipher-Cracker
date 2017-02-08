@@ -7,10 +7,11 @@ import (
 	"sync"
 	"strconv"
 	"strings"
+	"os"
 )
 
 func main(){
-	plain_cipher := []string{"affine", "ihhwvc"}
+	plain_cipher := []string{os.Args[1], os.Args[2]}
 	affineCmd    := "./affine"
 	encType      := []string{"encrypt", "decrypt"}
 
